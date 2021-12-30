@@ -1,18 +1,19 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: 科技引领未来
+description: 这是一个计算机科学与技术专业的知识和经验分享博客
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://201910089194.github.io" # the base hostname & protocol for your site
 
 pagination:
 
-  # Site-wide kill switch, disabled here it doesn't run at all 
+  # Site-wide kill switch, disabled here it doesn't run at all 全站关闭开关，在这里被关闭它根本就不能运行
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  #设置为'true'启用分页调试。这可以在站点配置中启用，也可以只对单个分页页面启用
   debug: false
 
   per_page: 5
@@ -25,16 +26,16 @@ github:  github
 #Additional Pages
 about: about
 contact: contact
-privacy-policy: privacy-policy
+privacy-policy: privacy-policy #隐私权政策
 
 
 permalink: /:title
 
 
-# Google Analytics
+# Google Analytics 逻辑分析的方法
 analytics_id: ""
 
-# Build settings
+# Build settings 构建设置
 markdown: kramdown
 
 kramdown:
@@ -47,13 +48,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: 201910089194 #github username
+repo: 201910089194.github.io #github repository
 branch: master #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url:  https://201910089194.github.io/
+source_url:  https://github.com/201910089194/201910089194.github.io #source repository url
 
 exclude:
   - README.md
